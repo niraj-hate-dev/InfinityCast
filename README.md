@@ -34,7 +34,10 @@ A high-performance, ultra-low-latency Android screen mirroring and PC keymapping
 
 ## 📸 Screenshots
 
-*(Drag and drop images of your sleek blue UI dashboard and Android app right here!)*
+<img width="959" height="502" alt="image" src="https://github.com/user-attachments/assets/8413a8a3-96db-4a7b-96c7-1405b4c87cce" />
 
----
-*Elevating mobile gaming to the desktop standard.*
+<img width="953" height="487" alt="image" src="https://github.com/user-attachments/assets/c19b7584-f366-433c-a1b6-c7c68d9824e5" />
+
+<img width="1080" height="2200" alt="image" src="https://github.com/user-attachments/assets/a5511e0d-aea3-4a1e-bb3e-382a2350c6fc" />
+
+
