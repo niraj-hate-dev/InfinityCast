@@ -34,10 +34,13 @@ A high-performance, ultra-low-latency Android screen mirroring and PC keymapping
 
 ## 📸 Screenshots
 
+1.Main InfinityCast PC Window
 <img width="959" height="502" alt="image" src="https://github.com/user-attachments/assets/8413a8a3-96db-4a7b-96c7-1405b4c87cce" />
 
+2.InfinityCast menu->Editor PC Window
 <img width="953" height="487" alt="image" src="https://github.com/user-attachments/assets/c19b7584-f366-433c-a1b6-c7c68d9824e5" />
 
+3.Main InfinityCast Android Window
 <img width="1080" height="2200" alt="image" src="https://github.com/user-attachments/assets/a5511e0d-aea3-4a1e-bb3e-382a2350c6fc" />
 
 
