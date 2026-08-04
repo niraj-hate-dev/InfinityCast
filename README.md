@@ -18,7 +18,7 @@ A high-performance, ultra-low-latency Android screen mirroring and PC keymapping
 
 ## 🚀 Download & Installation
 
-1. Navigate to the **[Releases](https://github.com/niraj-hate-dev/InfinityCast/releases/tag/beta_v1.0)** tab on the right side of this page.
+1. Navigate to the **[Releases](https://github.com/niraj-hate-dev/InfinityCast/releases/tag/v1.0)** tab on the right side of this page.
 2. Download `InfinityCast_beta_v1.0.zip` and extract the contents to your preferred location on your PC.
 3. Inside the extracted folder, you will find two sub-directories: `InfinityCast[Android]` and `InfinityCast[Windows]`.
 4. **Android Setup:** Open the `InfinityCast[Android]` folder, transfer the `InfinityCast_v1.0.apk` file to your mobile device, and install the application.
