@@ -14,7 +14,7 @@ A high-performance, ultra-low-latency Android screen mirroring and PC keymapping
 
 * **🎮 Complete Gaming Keymapping Suite (8 Node Types)**  
   - **Tap**: Instant single-touch binding for any keyboard key.
-  - **WASD Joystick**: Smooth 8-directional virtual movement stick *(when omitted, W/A/S/D act as standard keys or script triggers)*.
+  - **WASD Joystick**: Smooth 8-directional virtual movement stick *(when omitted, W/A/S/D act as normal keys or script triggers)*.
   - **Left Click Fire**: Specialized shooting node with optional pull-down recoil mitigation.
   - **Freelook (360° Mouse Camera)**: FPS camera control with anti-boundary ratcheting and sensitivity fine-tuning.
   - **Macro (Auto-Clicker)**: Rapid-fire multi-click with custom speed and count.
@@ -34,11 +34,11 @@ A high-performance, ultra-low-latency Android screen mirroring and PC keymapping
 
 ## 🚀 Download & Installation
 
-1. Navigate to the **[Releases](https://github.com/niraj-hate-dev/InfinityCast/releases)** tab on GitHub.
-2. Download `InfinityCast_v2.0.zip` and extract the contents to your PC.
-3. Inside the extracted folder, you will find:
-   - **`Android_Mobile/InfinityCast.apk`**: Install on your Android phone.
-   - **`Windows_PC/InfinityCast.exe`**: Portable PC application (no installation wizard required).
+1. Go to the **[Releases](https://github.com/niraj-hate-dev/InfinityCast/releases)** page on GitHub.
+2. In the latest release (`v2.0.0`), download the appropriate file for your platform:
+   - **📱 `InfinityCast.apk`** — Download and install directly onto your Android phone.
+   - **💻 `Windows_PC.zip`** — Download onto your PC.
+3. Extract `Windows_PC.zip`. Inside the extracted `Windows_PC` folder, double-click **`InfinityCast.exe`** to launch the app! *(Completely portable, no installation wizard required!)*
 
 ---
 
