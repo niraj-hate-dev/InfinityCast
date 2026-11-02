@@ -1,35 +1,71 @@
-# InfinityCast ♾️
+# InfinityCast ♾️ (v2.0.0)
 
 A high-performance, ultra-low-latency Android screen mirroring and PC keymapping engine. InfinityCast bridges the gap between your mobile device and your PC, offering flawless multi-touch gaming, pristine hardware-level audio routing, and a deeply customizable control suite—all without the performance overhead of traditional Android emulators.
 
+---
+
 ## ✨ Core Features
 
-* **Zero-Latency Video Pipeline**  
-  Enjoy buttery smooth, high-fidelity screen mirroring. Our highly optimized video engine ensures that every frame reaches your PC instantly, providing a competitive edge with absolutely no noticeable input delay or stutter.
+* **⚡ Zero-Latency Video Pipeline**  
+  Experience buttery-smooth, high-fidelity screen mirroring powered by hardware-accelerated GPU decoding (D3D11VA) and CPU fallback. Built-in aspect-ratio-aware letterboxing preserves exact phone dimensions with zero distortion.
 
-* **Emulator-Grade Multi-Touch Injection**  
-  Experience native-level responsiveness. InfinityCast bypasses traditional mobile accessibility limitations to provide true, unhindered multi-touch injection. It feels exactly like playing on a physical device, but with the power and precision of your PC peripherals.
+* **🎯 Pixel-Perfect Touch & Multi-Touch Injection**  
+  Direct kernel/socket touch injection provides native-level responsiveness. An advanced coordinate translation matrix strips black bars so touches on PC land with 100% pixel accuracy on the phone.
 
-* **Pristine Hardware Audio Routing**  
-  Never miss a footstep. Capture crystal-clear, uncompressed system audio directly from your mobile device and route it flawlessly to your PC headset, all while seamlessly keeping your physical phone speakers muted to prevent background echoes.
+* **🎮 Complete Gaming Keymapping Suite (8 Node Types)**  
+  - **Tap**: Instant single-touch binding for any keyboard key.
+  - **WASD Joystick**: Smooth 8-directional virtual movement stick *(when omitted, W/A/S/D act as standard keys or script triggers)*.
+  - **Left Click Fire**: Specialized shooting node with optional pull-down recoil mitigation.
+  - **Freelook (360° Mouse Camera)**: FPS camera control with anti-boundary ratcheting and sensitivity fine-tuning.
+  - **Macro (Auto-Clicker)**: Rapid-fire multi-click with custom speed and count.
+  - **Script & Target**: Automated multi-touch sequences, timed delays, and loop toggles.
+  - **Scroll Wheel**: Maps mouse wheel up/down into directional swipe gestures.
 
-* **Smart Keymapping Engine & Auto-Reconnect**  
-  Built specifically for AAA mobile gaming on PC. Our advanced, custom-built mouse routing architecture intelligently handles complex in-game interactions, featuring seamless UI navigation, precise weapon recoil control, and dynamic 360-degree freelook mechanics. Plus, a bulletproof auto-reconnect system instantly recovers your session if your USB cable ever gets loose.
+* **🔊 Pristine Hardware Audio Routing & Auto-Mute**  
+  Streams crystal-clear, uncompressed internal system audio directly to your PC headphones or speakers. The physical phone speaker is automatically silenced during screen mirroring to prevent echoes and battery drain.
+
+* **🎬 Synchronized MP4 Video & Audio Recording**  
+  One-click recording captures H.264 video synchronized with 44.1kHz AAC stereo audio into a standard MP4 file with zero delay. Also supports instant native-resolution screenshots.
+
+* **👁️ High-Contrast Keymap HUD & Alt+X Toggle**  
+  High-visibility on-screen button badges with dark pill backgrounds keep key assignments readable over any bright in-game scene. Press **Alt + X** at any moment during gameplay to hide or show the HUD overlays.
+
+---
 
 ## 🚀 Download & Installation
 
-1. Navigate to the **[Releases](https://github.com/niraj-hate-dev/InfinityCast/releases/tag/v1.0)** tab on the right side of this page.
-2. **Android Setup:** Download the `InfinityCast_v1.0.apk` file directly to your Android device and install the application.
-3. **Windows Setup:** Download the `InfinityCast_PC_v1.0.zip` file and extract the contents to your preferred location on your PC.
-4. Open the newly extracted folder on your PC and double-click `InfinityCast.exe` to launch the software. *(Completely portable, no installation wizard required!)*
+1. Navigate to the **[Releases](https://github.com/niraj-hate-dev/InfinityCast/releases)** tab on GitHub.
+2. Download `InfinityCast_v2.0.zip` and extract the contents to your PC.
+3. Inside the extracted folder, you will find:
+   - **`Android_Mobile/InfinityCast.apk`**: Install on your Android phone.
+   - **`Windows_PC/InfinityCast.exe`**: Portable PC application (no installation wizard required).
+
+---
 
 ## 🎮 How to Connect
 
-1. Enable **USB Debugging** within your Android device's Developer Options.
-2. Connect your phone to your PC via a high-quality USB data cable.
-3. Launch `InfinityCast.exe` on your PC.
-4. Accept the digital fingerprint prompt on your phone's screen if it appears.
-5. Your phone will automatically wake up and launch the InfinityCast app. Simply tap **"Start Now"** on the screen recording prompt, and your PC will instantly take control!
+1. Enable **Developer Options** on your phone (tap **Build Number** 7 times in Android Settings).
+2. Enable **USB Debugging** inside Developer Options.
+3. Connect your phone to your PC via a USB data cable.
+4. Launch `InfinityCast.exe` on your PC.
+5. When prompted on your phone, check *"Always allow from this computer"* and tap **Allow**.
+6. Tap **"Start Now"** on the screen projection prompt. InfinityCast connects and mirrors instantly!
+
+> **Auto-Reconnect:** If your USB cable is accidentally unplugged during gameplay, simply plug it back in—your session will automatically resume without restarting the app!
+
+---
+
+## ⚡ Keyboard Shortcuts Quick Reference
+
+| Shortcut | Action |
+|:---|:---|
+| **`Alt + X`** | Toggle on-screen Keymap HUD (Show / Hide buttons during gameplay) |
+| **`Right Click`** | Toggle Freelook Aim Lock (Lock / unlock mouse for 360° camera) |
+| **`Ctrl + X`** | Toggle Mouse Capture in Mirror Mode (Full phone navigation) |
+| **`F11`** | Toggle Borderless Fullscreen display |
+| **`Arrow Keys`** | Live Freelook sensitivity adjustments while aiming |
+
+---
 
 ## 📸 Screenshots
 
